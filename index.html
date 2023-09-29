@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Registro de alumnos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px;">
+            Lista de alumnos en mi clase
+        </h3>
+        <div>
+            <span>1</span>
+            <input type="text" placeholder="nombre_del_alumno" id="nombre_alumno_1">
+            <br>
+            <span>2</span>
+            <input type="text" placeholder="nombre_del_alumno" id="nombre_alumno_2">
+            <br>
+            <span>3</span>
+            <input type="text" placeholder="nombre_del_alumno" id="nombre_alumno_3">
+            <br>
+            <span>4</span>
+            <input type="text" placeholder="nombre_del_alumno" id="nombre_alumno_4">
+        </div>
+        <button onclick="sorting()" id="boton_ordenar">ordenar</button>
+        <button onclick="submit()" id="boton_enviar">ENVIAR</button>
+        <div id="ver_nombre_con_comas"></div>
+        <div id="ver_nombre_sin_comas"></div>
+        <div id="ver_nombre" style="font-weight: bold;"></div>
+    </center>
+    <script type="text/javascript"></script>
+</body>
+
+</html>
